@@ -1,5 +1,5 @@
 # Tron1_solefoot_rl #
-
+# 本项目基于Isaac Gym仿真环境实现Tron1 point/sole-foot机器人在平地/崎岖地形进行训练等任务 #
 ---
 
 ### Installation ###
