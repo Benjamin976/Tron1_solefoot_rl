@@ -1,0 +1,140 @@
+--- git status ---
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   limx_rl.egg-info/SOURCES.txt
+	modified:   limx_rl/__pycache__/__init__.cpython-38.pyc
+	modified:   limx_rl/algorithms/__pycache__/__init__.cpython-38.pyc
+	modified:   limx_rl/algorithms/__pycache__/ppo.cpython-38.pyc
+	modified:   limx_rl/env/__pycache__/__init__.cpython-38.pyc
+	modified:   limx_rl/env/__pycache__/vec_env.cpython-38.pyc
+	modified:   limx_rl/env/__pycache__/video_env.cpython-38.pyc
+	modified:   limx_rl/modules/__pycache__/__init__.cpython-38.pyc
+	modified:   limx_rl/modules/__pycache__/normalizer.cpython-38.pyc
+	modified:   limx_rl/modules/actor_critic/__pycache__/__init__.cpython-38.pyc
+	modified:   limx_rl/modules/actor_critic/__pycache__/actor_critic.cpython-38.pyc
+	modified:   limx_rl/modules/actor_critic/__pycache__/mlp.cpython-38.pyc
+	modified:   limx_rl/modules/actor_critic/actor/__pycache__/__init__.cpython-38.pyc
+	modified:   limx_rl/modules/actor_critic/actor/__pycache__/actor.cpython-38.pyc
+	modified:   limx_rl/modules/actor_critic/actor/__pycache__/encoded_mlp_actor.cpython-38.pyc
+	modified:   limx_rl/modules/actor_critic/actor/__pycache__/mlp_actor.cpython-38.pyc
+	modified:   limx_rl/modules/actor_critic/actor/__pycache__/partial_obs_encoded_mlp_actor.cpython-38.pyc
+	modified:   limx_rl/modules/actor_critic/critic/__pycache__/__init__.cpython-38.pyc
+	modified:   limx_rl/modules/actor_critic/critic/__pycache__/critic.cpython-38.pyc
+	modified:   limx_rl/modules/actor_critic/critic/__pycache__/mlp_critic.cpython-38.pyc
+	modified:   limx_rl/modules/actor_critic/encoder/__pycache__/__init__.cpython-38.pyc
+	modified:   limx_rl/modules/actor_critic/encoder/__pycache__/encoder.cpython-38.pyc
+	modified:   limx_rl/modules/actor_critic/encoder/__pycache__/proprioceptive_obs_encoder.cpython-38.pyc
+	modified:   limx_rl/modules/actor_critic/encoder/__pycache__/rnn_encoder.cpython-38.pyc
+	modified:   limx_rl/runners/__pycache__/__init__.cpython-38.pyc
+	modified:   limx_rl/runners/__pycache__/on_policy_runner.cpython-38.pyc
+	modified:   limx_rl/storage/__pycache__/__init__.cpython-38.pyc
+	modified:   limx_rl/storage/__pycache__/rollout_storage.cpython-38.pyc
+	modified:   limx_rl/utils/__pycache__/__init__.cpython-38.pyc
+	modified:   limx_rl/utils/__pycache__/utils.cpython-38.pyc
+
+no changes added to commit (use "git add" and/or "git commit -a") 
+
+
+--- git diff ---
+diff --git a/limx_rl.egg-info/SOURCES.txt b/limx_rl.egg-info/SOURCES.txt
+index 55e5566..87e23ab 100644
+--- a/limx_rl.egg-info/SOURCES.txt
++++ b/limx_rl.egg-info/SOURCES.txt
+@@ -1,6 +1,5 @@
+ LICENSE
+ README.md
+-pyproject.toml
+ setup.py
+ limx_rl/__init__.py
+ limx_rl.egg-info/PKG-INFO
+diff --git a/limx_rl/__pycache__/__init__.cpython-38.pyc b/limx_rl/__pycache__/__init__.cpython-38.pyc
+index 309fd96..280a410 100644
+Binary files a/limx_rl/__pycache__/__init__.cpython-38.pyc and b/limx_rl/__pycache__/__init__.cpython-38.pyc differ
+diff --git a/limx_rl/algorithms/__pycache__/__init__.cpython-38.pyc b/limx_rl/algorithms/__pycache__/__init__.cpython-38.pyc
+index c517d6d..a13f61d 100644
+Binary files a/limx_rl/algorithms/__pycache__/__init__.cpython-38.pyc and b/limx_rl/algorithms/__pycache__/__init__.cpython-38.pyc differ
+diff --git a/limx_rl/algorithms/__pycache__/ppo.cpython-38.pyc b/limx_rl/algorithms/__pycache__/ppo.cpython-38.pyc
+index e6e342b..d858b83 100644
+Binary files a/limx_rl/algorithms/__pycache__/ppo.cpython-38.pyc and b/limx_rl/algorithms/__pycache__/ppo.cpython-38.pyc differ
+diff --git a/limx_rl/env/__pycache__/__init__.cpython-38.pyc b/limx_rl/env/__pycache__/__init__.cpython-38.pyc
+index 5c04167..89044bf 100644
+Binary files a/limx_rl/env/__pycache__/__init__.cpython-38.pyc and b/limx_rl/env/__pycache__/__init__.cpython-38.pyc differ
+diff --git a/limx_rl/env/__pycache__/vec_env.cpython-38.pyc b/limx_rl/env/__pycache__/vec_env.cpython-38.pyc
+index 6dcf09b..68860ed 100644
+Binary files a/limx_rl/env/__pycache__/vec_env.cpython-38.pyc and b/limx_rl/env/__pycache__/vec_env.cpython-38.pyc differ
+diff --git a/limx_rl/env/__pycache__/video_env.cpython-38.pyc b/limx_rl/env/__pycache__/video_env.cpython-38.pyc
+index 18f3b14..ab69a84 100644
+Binary files a/limx_rl/env/__pycache__/video_env.cpython-38.pyc and b/limx_rl/env/__pycache__/video_env.cpython-38.pyc differ
+diff --git a/limx_rl/modules/__pycache__/__init__.cpython-38.pyc b/limx_rl/modules/__pycache__/__init__.cpython-38.pyc
+index 589cf09..cfce538 100644
+Binary files a/limx_rl/modules/__pycache__/__init__.cpython-38.pyc and b/limx_rl/modules/__pycache__/__init__.cpython-38.pyc differ
+diff --git a/limx_rl/modules/__pycache__/normalizer.cpython-38.pyc b/limx_rl/modules/__pycache__/normalizer.cpython-38.pyc
+index d64f871..3d1ee2c 100644
+Binary files a/limx_rl/modules/__pycache__/normalizer.cpython-38.pyc and b/limx_rl/modules/__pycache__/normalizer.cpython-38.pyc differ
+diff --git a/limx_rl/modules/actor_critic/__pycache__/__init__.cpython-38.pyc b/limx_rl/modules/actor_critic/__pycache__/__init__.cpython-38.pyc
+index a9d2ff4..64060d1 100644
+Binary files a/limx_rl/modules/actor_critic/__pycache__/__init__.cpython-38.pyc and b/limx_rl/modules/actor_critic/__pycache__/__init__.cpython-38.pyc differ
+diff --git a/limx_rl/modules/actor_critic/__pycache__/actor_critic.cpython-38.pyc b/limx_rl/modules/actor_critic/__pycache__/actor_critic.cpython-38.pyc
+index 5f92cb0..1e88f47 100644
+Binary files a/limx_rl/modules/actor_critic/__pycache__/actor_critic.cpython-38.pyc and b/limx_rl/modules/actor_critic/__pycache__/actor_critic.cpython-38.pyc differ
+diff --git a/limx_rl/modules/actor_critic/__pycache__/mlp.cpython-38.pyc b/limx_rl/modules/actor_critic/__pycache__/mlp.cpython-38.pyc
+index 7d24619..b09fc07 100644
+Binary files a/limx_rl/modules/actor_critic/__pycache__/mlp.cpython-38.pyc and b/limx_rl/modules/actor_critic/__pycache__/mlp.cpython-38.pyc differ
+diff --git a/limx_rl/modules/actor_critic/actor/__pycache__/__init__.cpython-38.pyc b/limx_rl/modules/actor_critic/actor/__pycache__/__init__.cpython-38.pyc
+index 54f1ab9..1cf5749 100644
+Binary files a/limx_rl/modules/actor_critic/actor/__pycache__/__init__.cpython-38.pyc and b/limx_rl/modules/actor_critic/actor/__pycache__/__init__.cpython-38.pyc differ
+diff --git a/limx_rl/modules/actor_critic/actor/__pycache__/actor.cpython-38.pyc b/limx_rl/modules/actor_critic/actor/__pycache__/actor.cpython-38.pyc
+index e089835..33c131e 100644
+Binary files a/limx_rl/modules/actor_critic/actor/__pycache__/actor.cpython-38.pyc and b/limx_rl/modules/actor_critic/actor/__pycache__/actor.cpython-38.pyc differ
+diff --git a/limx_rl/modules/actor_critic/actor/__pycache__/encoded_mlp_actor.cpython-38.pyc b/limx_rl/modules/actor_critic/actor/__pycache__/encoded_mlp_actor.cpython-38.pyc
+index b03e84e..e2b480c 100644
+Binary files a/limx_rl/modules/actor_critic/actor/__pycache__/encoded_mlp_actor.cpython-38.pyc and b/limx_rl/modules/actor_critic/actor/__pycache__/encoded_mlp_actor.cpython-38.pyc differ
+diff --git a/limx_rl/modules/actor_critic/actor/__pycache__/mlp_actor.cpython-38.pyc b/limx_rl/modules/actor_critic/actor/__pycache__/mlp_actor.cpython-38.pyc
+index 7979104..b0b6be1 100644
+Binary files a/limx_rl/modules/actor_critic/actor/__pycache__/mlp_actor.cpython-38.pyc and b/limx_rl/modules/actor_critic/actor/__pycache__/mlp_actor.cpython-38.pyc differ
+diff --git a/limx_rl/modules/actor_critic/actor/__pycache__/partial_obs_encoded_mlp_actor.cpython-38.pyc b/limx_rl/modules/actor_critic/actor/__pycache__/partial_obs_encoded_mlp_actor.cpython-38.pyc
+index c7985fa..e385757 100644
+Binary files a/limx_rl/modules/actor_critic/actor/__pycache__/partial_obs_encoded_mlp_actor.cpython-38.pyc and b/limx_rl/modules/actor_critic/actor/__pycache__/partial_obs_encoded_mlp_actor.cpython-38.pyc differ
+diff --git a/limx_rl/modules/actor_critic/critic/__pycache__/__init__.cpython-38.pyc b/limx_rl/modules/actor_critic/critic/__pycache__/__init__.cpython-38.pyc
+index a871695..355535f 100644
+Binary files a/limx_rl/modules/actor_critic/critic/__pycache__/__init__.cpython-38.pyc and b/limx_rl/modules/actor_critic/critic/__pycache__/__init__.cpython-38.pyc differ
+diff --git a/limx_rl/modules/actor_critic/critic/__pycache__/critic.cpython-38.pyc b/limx_rl/modules/actor_critic/critic/__pycache__/critic.cpython-38.pyc
+index a88b13a..2126e0f 100644
+Binary files a/limx_rl/modules/actor_critic/critic/__pycache__/critic.cpython-38.pyc and b/limx_rl/modules/actor_critic/critic/__pycache__/critic.cpython-38.pyc differ
+diff --git a/limx_rl/modules/actor_critic/critic/__pycache__/mlp_critic.cpython-38.pyc b/limx_rl/modules/actor_critic/critic/__pycache__/mlp_critic.cpython-38.pyc
+index 45bed97..12fb041 100644
+Binary files a/limx_rl/modules/actor_critic/critic/__pycache__/mlp_critic.cpython-38.pyc and b/limx_rl/modules/actor_critic/critic/__pycache__/mlp_critic.cpython-38.pyc differ
+diff --git a/limx_rl/modules/actor_critic/encoder/__pycache__/__init__.cpython-38.pyc b/limx_rl/modules/actor_critic/encoder/__pycache__/__init__.cpython-38.pyc
+index f5e2d1e..523841a 100644
+Binary files a/limx_rl/modules/actor_critic/encoder/__pycache__/__init__.cpython-38.pyc and b/limx_rl/modules/actor_critic/encoder/__pycache__/__init__.cpython-38.pyc differ
+diff --git a/limx_rl/modules/actor_critic/encoder/__pycache__/encoder.cpython-38.pyc b/limx_rl/modules/actor_critic/encoder/__pycache__/encoder.cpython-38.pyc
+index 0d60825..7ecf224 100644
+Binary files a/limx_rl/modules/actor_critic/encoder/__pycache__/encoder.cpython-38.pyc and b/limx_rl/modules/actor_critic/encoder/__pycache__/encoder.cpython-38.pyc differ
+diff --git a/limx_rl/modules/actor_critic/encoder/__pycache__/proprioceptive_obs_encoder.cpython-38.pyc b/limx_rl/modules/actor_critic/encoder/__pycache__/proprioceptive_obs_encoder.cpython-38.pyc
+index ecf227a..7515ca1 100644
+Binary files a/limx_rl/modules/actor_critic/encoder/__pycache__/proprioceptive_obs_encoder.cpython-38.pyc and b/limx_rl/modules/actor_critic/encoder/__pycache__/proprioceptive_obs_encoder.cpython-38.pyc differ
+diff --git a/limx_rl/modules/actor_critic/encoder/__pycache__/rnn_encoder.cpython-38.pyc b/limx_rl/modules/actor_critic/encoder/__pycache__/rnn_encoder.cpython-38.pyc
+index af3a600..e2df0a4 100644
+Binary files a/limx_rl/modules/actor_critic/encoder/__pycache__/rnn_encoder.cpython-38.pyc and b/limx_rl/modules/actor_critic/encoder/__pycache__/rnn_encoder.cpython-38.pyc differ
+diff --git a/limx_rl/runners/__pycache__/__init__.cpython-38.pyc b/limx_rl/runners/__pycache__/__init__.cpython-38.pyc
+index 2f13eba..6f602b9 100644
+Binary files a/limx_rl/runners/__pycache__/__init__.cpython-38.pyc and b/limx_rl/runners/__pycache__/__init__.cpython-38.pyc differ
+diff --git a/limx_rl/runners/__pycache__/on_policy_runner.cpython-38.pyc b/limx_rl/runners/__pycache__/on_policy_runner.cpython-38.pyc
+index b958202..b5c526f 100644
+Binary files a/limx_rl/runners/__pycache__/on_policy_runner.cpython-38.pyc and b/limx_rl/runners/__pycache__/on_policy_runner.cpython-38.pyc differ
+diff --git a/limx_rl/storage/__pycache__/__init__.cpython-38.pyc b/limx_rl/storage/__pycache__/__init__.cpython-38.pyc
+index f85f9d4..070e03d 100644
+Binary files a/limx_rl/storage/__pycache__/__init__.cpython-38.pyc and b/limx_rl/storage/__pycache__/__init__.cpython-38.pyc differ
+diff --git a/limx_rl/storage/__pycache__/rollout_storage.cpython-38.pyc b/limx_rl/storage/__pycache__/rollout_storage.cpython-38.pyc
+index 14a8a65..83eb92f 100644
+Binary files a/limx_rl/storage/__pycache__/rollout_storage.cpython-38.pyc and b/limx_rl/storage/__pycache__/rollout_storage.cpython-38.pyc differ
+diff --git a/limx_rl/utils/__pycache__/__init__.cpython-38.pyc b/limx_rl/utils/__pycache__/__init__.cpython-38.pyc
+index 54e0ab6..d653be3 100644
+Binary files a/limx_rl/utils/__pycache__/__init__.cpython-38.pyc and b/limx_rl/utils/__pycache__/__init__.cpython-38.pyc differ
+diff --git a/limx_rl/utils/__pycache__/utils.cpython-38.pyc b/limx_rl/utils/__pycache__/utils.cpython-38.pyc
+index d5d8cdb..31a3e19 100644
+Binary files a/limx_rl/utils/__pycache__/utils.cpython-38.pyc and b/limx_rl/utils/__pycache__/utils.cpython-38.pyc differ
