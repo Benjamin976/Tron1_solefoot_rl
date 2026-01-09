@@ -1,4 +1,4 @@
-# Limx Legged Gym: An Isaac Gym Environment for Reinforcement Learning on Legged Robots  #
+# Tron1_solefoot_rl #
 
 ---
 
